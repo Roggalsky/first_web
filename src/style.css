@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  background-color: rgba(245, 245, 245, 0.942);
+}
+.splash{
+  width: 100vw;
+  height: 50vh;
+  background: linear-gradient(to right, rgba(28, 28, 249, 0.732) 70%, rgba(144, 9, 241, 0.781));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.942);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 0 0 5px 5px;
+  border-bottom: 1px solid;
+}
+
+.navbar ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li{
+  list-style: none;
+}
+
+.navbar li a{
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  color: black;
+}
+
+.navbar li a:hover{
+  color:rgba(12, 0, 238, 0.757);
+  border-radius: 5px;
+  text-decoration: underline 2px;
+}
+
+
+.logo{
+  font-weight: 700;
+  font-size: 1.3rem;
+  font-family: "Prompt", sans-serif;
+}
+
+.inner{
+  color:white;
+  font-weight: 100;
+  text-align: center;
+}
+
+.inner button{
+  background-color:rgb(228, 42, 135) ;
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.inner button:active{
+  background-color: rgba(228, 42, 135, 0.757);
+}
+
+.cards-section{
+text-align: center;
+}
+
+.cards-title{
+  color:rgba(12, 0, 238, 0.757);
+  font-size: larger;
+  padding-top: 1rem;
+}
+.cards-section ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards-section li{
+  display: flex;
+  padding: 1rem;
+}
+
+.card{
+  background-color: white;
+  border-radius: 0.25;
+  display:flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 400px
+}
+
+.card-image img{
+  width:100%;
+  height: auto;
+  object-fit: scale-down;
+}
+
+.card-content{
+  text-align: start;
+  padding:1em;
+}
+.card-button{
+  border: none;
+  font-size: 14px;
+  padding: 0.5em;
+  margin: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.card-button:active{
+  background-color: white;
+}
