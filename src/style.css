@@ -27,7 +27,7 @@ body{
   align-items: center;
   padding: 5px 20px;
   border-radius: 0 0 5px 5px;
-  border-bottom: 1px solid;
+  box-shadow: 4px 1px 10px rgba(3, 7, 234, 0.488);
 }
 
 .navbar ul{
@@ -81,18 +81,18 @@ body{
 }
 
 .cards-section{
+margin-top: 5em;
 text-align: center;
 }
 
 .cards-title{
   color:rgba(12, 0, 238, 0.757);
   font-size: larger;
-  padding-top: 1rem;
+  margin-bottom: 2em;
 }
 .cards-section ul{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -135,4 +135,83 @@ text-align: center;
 
 .card-button:active{
   background-color: white;
+}
+
+.team-section{
+  margin-top: 5em;
+}
+.team-title{
+  color:rgba(12, 0, 238, 0.757);
+  text-align: center;
+  font-size: larger;
+  margin: 1em 0 3em 0;
+
+}
+
+.team-cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card{
+  text-align: center;
+  color: gray;
+  max-width: 400px;
+  font-size: small;
+  padding-right: 1em;
+
+}
+.team-img img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name{
+  font-weight: bold;
+  color: black;
+}
+
+.baner{
+  margin-top: 5em;
+  width:100vw;
+  height: 30vh;
+  background: linear-gradient(to right, rgba(66,219,111)0%, rgba(28, 28, 249, 0.732)90%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.baner h1{
+  margin: 0;
+}
+
+.footer{
+  width: 100vw;
+  height: 13vh;
+  background: rgb(14, 19, 29);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: small;
+}
+
+.social-media{
+  margin-top: 1em;
+  color: gray
+}
+.social-media ul{
+  display: flex;
+  flex-direction: row;
+}
+.social-media li{
+  color: white;
+  margin-right: 2em;
+  list-style: none;
 }
